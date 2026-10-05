@@ -1,5 +1,5 @@
 // Netlify Preview test
-const TILE_SIZE = 16;
+const TILE_SIZE = 32;
 
 // ========================
 // マップデータ
