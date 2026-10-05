@@ -29,10 +29,16 @@ const MAP_WIDTH = mapData[0].length;
 
 const config = {
     type: Phaser.AUTO,
-    width: 480,
-    height: 270,
+
+    width: 1280,
+    height: 720,
 
     backgroundColor: "#222222",
+
+    scale: {
+        mode: Phaser.Scale.FIT,
+        autoCenter: Phaser.Scale.CENTER_BOTH
+    },
 
     input: {
         activePointers: 2
@@ -43,7 +49,6 @@ const config = {
         update: update
     }
 };
-
 const game = new Phaser.Game(config);
 
 
