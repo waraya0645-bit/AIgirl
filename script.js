@@ -38,9 +38,9 @@ const MAP_WIDTH = mapData[0].length;
 
 const config = {
     type: Phaser.AUTO,
-
     width: 1280,
     height: 720,
+    present:"game",
 
     backgroundColor: "#222222",
 
